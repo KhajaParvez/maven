@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage("Code Checkout") {
             steps {
-                echo "Code has been checked out from the GIT master branch"
+                echo "Code has been checked out from the GIT master branch by Vipanchi"
                 echo "booleanExample: ${params.deploy}"
 				}
 			}
